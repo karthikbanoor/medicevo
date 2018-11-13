@@ -1,0 +1,408 @@
+@media (min-width:320px) and (max-width: 767px) {
+/* Home page*/	
+
+
+.img-fluid1 {
+    width: 140px;
+    height: auto;
+}
+.navbar {
+	padding: .5rem 0;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: #000;
+    padding: 3px 7px;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: transparent;
+    background-size: 100% 100%;
+}
+
+.collapse.show {
+    display: block;
+    padding: 10px 0;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000;
+    font-size: 15px;
+}
+a.dropdown-toggle {
+    color: #000;
+    font-size: 15px;
+}
+.nav-item {
+    padding: 5px 0;
+}
+.dropdown {
+	padding: 5px 0;
+}
+.dropdown-menu {
+    width: 283px;
+    padding: 10px 15px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    font-size: 15px;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
+
+
+.part-1 h1 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #07bee5;
+}
+.part-1 p {
+    color: #888;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 300;
+}
+.part-2 {
+    padding: 30px 0;
+}
+.num-sec {
+    padding: 14px 0;
+    text-align: center;
+}
+.part-3 {
+    background-image: url(../images/baner-img.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+.read-btn {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p.pp {
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+   
+}
+
+
+.footer-part p {
+     margin-bottom: 10px;
+
+}
+
+.product-part {
+    border: 1px solid #ececec;
+    margin: 15px 0;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+    background: #fff;
+    height: auto;
+    padding-bottom: 20px;
+
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 12px;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #212529;
+    border-color: #32383e;
+    font-size: 12px;
+}
+
+.product2-banner h1 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin-top: 174px;
+}
+
+.product-banner h1 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 177px;
+}
+
+/* End here */
+
+
+/* About page */
+
+.about-baner h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 265px;
+    margin-top: 60px;
+}
+.kop-text {
+    padding: 30px 15px;
+}
+
+
+.hdng01 {
+    text-align: center;
+}
+
+
+/* About page ends here */
+
+
+/* Business page */
+
+.business1-banner h1 {
+    font-size: 50px;
+    
+}
+
+.bu{
+
+    line-height: 253px;
+    margin-top: 60px;
+}
+
+.cnt1 {
+    padding: 30px 15px;
+}
+.li-text {
+    padding: 0 20px;
+}
+.fdm-hdng {
+    color: #c33239;
+    font-size: 21px;
+}
+.hdng {
+    font-size: 21px;
+    margin: 0px 0 13px 0;
+}
+.fdm-para {
+    font-size: 18px;
+    line-height: 1.5; 
+    text-align: justify;
+}
+.fd-img {
+    height: auto;
+}
+
+
+/* Business page ends here*/
+
+
+
+/* Gallery page */
+
+.gallery-baner h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 157px;
+}
+
+
+
+/* gallery page ends here*/
+
+/* Affairs page */
+
+.affairs-banner h1 {
+    font-size: 41px;
+    margin-top: 37%;
+}
+.affairs-1 h1 {
+    font-size: 23px;
+}
+
+
+
+
+/* End here */
+
+/* investors page*/
+.investors-baner h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50%;
+}
+.investors-2 {
+    background-image: url(../images/policy-baner.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.investors-2 ul {
+    list-style-type: square;
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+/* Contact page */
+
+.contact-banner h1 {
+    font-size: 41px;
+    color: #fff;
+    text-align: center;
+    margin-top: 152px;
+}
+
+.contact-form h2 {
+    color: #c33239;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #c33239;
+    border-bottom: 2px solid #c33239;
+    padding-bottom: 3px;
+    width: 125px;
+}
+
+
+.btm{
+    text-align: center !important;
+}
+
+
+
+
+
+
+
+/* End here */
+
+}
+
+
+
+
+@media (min-width:768px) and (max-width: 991px) {
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: .25rem;
+}
+
+.icon {
+    color: #fff;
+    margin: 20px 5px 20px;
+    border-radius: 50%;
+    background-color: #07bee5;
+    padding: 8px;
+}
+
+.about-baner h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 155px;
+}
+
+.business1-banner h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.product-banner h1 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.product2-banner h1 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.product-part img {
+    width: 201px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.product-part {
+    
+    height: 390px;
+}
+
+
+.gallery-baner h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 155px;
+}
+
+a.map-title {
+    color: #fff;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
